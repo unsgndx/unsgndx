@@ -1,20 +1,22 @@
 <!-- ========================= -->
-<!--        HEADER             -->
+<!--          HEADER           -->
 <!-- ========================= -->
 
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:090014,50:3b0764,100:7c3aed&text=Ivan%20Mikhailyuk&fontColor=ffffff&fontSize=38&fontAlignY=35&animation=fadeIn&desc=Python%20Backend%20Developer&descSize=16&descAlignY=57"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Python+Backend+Developer+%F0%9F%90%8D;Building+real-world+projects+%F0%9F%9A%80;FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Telegram;Learning+%E2%86%92+Building+%E2%86%92+Improving;while+not+senior%3A+keep_building()%F0%9F%90%88"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Python+Backend+Developer;Backend+%E2%80%A2+APIs+%E2%80%A2+Automation;FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Telegram;Building+systems+that+solve+real+problems"/>
 
 <br>
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="95"/>
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="85"/>
 
 <br>
 
-### 🐈‍⬛ `cat-powered backend development`
+### Backend systems · automation · AI integrations
+
+<br>
 
 <img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
 
@@ -31,28 +33,31 @@ class Ivan:
         self.location = "Almaty, Kazakhstan"
 
         self.focus = [
-            "Backend Development",
-            "Telegram Bots",
-            "REST APIs",
+            "Backend Systems",
+            "API Development",
+            "Telegram Automation",
             "Databases",
             "AI Integrations"
         ]
 
-        self.learning = [
-            "Python",
-            "FastAPI",
-            "PostgreSQL",
-            "Docker",
-            "Testing",
-            "System Design"
+        self.principles = [
+            "Clean architecture",
+            "Maintainable code",
+            "Reliable systems",
+            "Build for real use"
         ]
 
-    def current_goal(self):
-        return "Build. Break. Fix. Learn. Repeat."
+    def work(self):
+        return "Turning ideas into working software"
 
 
 me = Ivan()
 ```
+
+I build backend systems and automation tools with a focus on practical use, maintainability and real-world deployment.
+
+My main direction is **Python backend development** — APIs, Telegram systems, databases and AI-powered applications.
+
 ---
 
 ## ⚡ Tech stack
@@ -73,55 +78,91 @@ me = Ivan()
 
 ---
 
-## 🚀 What I'm building
+## 🚀 Featured work
 
 ### 🤖 AI Telegram Assistant
 
-Production-oriented AI assistant for Telegram.
+A production-oriented AI assistant designed to automate customer communication and business workflows inside Telegram.
 
 ```text
+User
+ │
+ ▼
 Telegram
-   │
-   ▼
- aiogram
-   │
-   ▼
- FastAPI
-   │
-   ├── AI / LLM
-   ├── Knowledge Base
-   ├── Analytics
-   │
-   ▼
+ │
+ ▼
+aiogram
+ │
+ ▼
+Application Layer
+ │
+ ├── AI / LLM
+ ├── Knowledge Base
+ ├── Business Logic
+ ├── Analytics
+ └── Human Handoff
+ │
+ ▼
 PostgreSQL
 ```
 
-**Stack**
+**Core stack**
 
 `Python` `aiogram` `FastAPI` `PostgreSQL` `AI`
 
-> Building a real system with persistent conversations,
-> AI responses, analytics and human handoff.
+**Key areas**
+
+- persistent conversation history
+- AI-powered responses
+- knowledge-driven conversations
+- campaign and source attribution
+- analytics and event tracking
+- human handoff
+- backend architecture designed for further scaling
 
 ---
 
-### 🌌 Portfolio
+### 🌌 Developer Portfolio
 
-My personal developer website with a dark cyber-style interface.
+Personal developer website built as an independent space for my projects, experiments and engineering work.
 
-`Frontend` `UI` `GitHub` `Deployment`
-
----
-
-### 👥 TeamUp
-
-University project for finding teammates for educational projects.
-
-`Web Development` `Team Project` `Project Management`
+`Web` `UI` `GitHub` `Deployment`
 
 ---
 
-## 📊 GitHub statistics
+## 🧩 What I work with
+
+```text
+Backend
+├── Python
+├── FastAPI
+├── REST APIs
+└── Application Architecture
+
+Data
+├── PostgreSQL
+└── Persistent Storage
+
+Automation
+├── Telegram Bots
+├── aiogram
+└── Business Workflows
+
+AI
+├── LLM Integration
+├── Knowledge Systems
+└── AI Assistants
+
+Infrastructure
+├── Git
+├── GitHub
+├── Docker
+└── Deployment
+```
+
+---
+
+## 📊 GitHub
 
 <div align="center">
 
@@ -151,51 +192,31 @@ University project for finding teammates for educational projects.
 
 ---
 
-## 🧠 Current journey
-
-```text
-[■■■■■■□□□□] Python
-[■■■■□□□□□□] Backend
-[■■■□□□□□□□] PostgreSQL
-[■■■□□□□□□□] FastAPI
-[■■□□□□□□□□] Docker
-
-           ↓
-
-        Junior Dev
-
-           ↓
-
-      Backend Engineer
-
-           ↓
-
-          Senior
-```
-
----
-
-## 🐍 Developer loop
+## ⚙️ Engineering approach
 
 ```python
-while not senior:
-    learn()
-    write_code()
+def build_product(idea):
+    architecture = design(idea)
 
-    try:
-        deploy()
-    except Exception:
-        debug()
-        drink_coffee()
+    product = build(
+        architecture=architecture,
+        maintainable=True,
+        scalable=True
+    )
 
-    pet_cat()
+    test(product)
+    deploy(product)
+
+    return improve(product)
 ```
+
+I prefer building projects around an actual problem rather than creating features just for the sake of adding more code.
 
 ---
 
 <div align="center">
 
-### `> system status: learning...`
+### `> design. build. ship. improve._`
 
 <br>
 
@@ -205,17 +226,14 @@ while not senior:
  > ^ <
 ```
 
-**building things until they work**
+<sub>Occasionally supervised by a cat.</sub>
 
-🐈‍⬛ ・ 🐍 ・ 💜
+<br><br>
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1500&color=7C3AED&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+profile+%3A%29;May+your+bugs+be+easy+to+fix.;And+your+cats+never+step+on+the+keyboard."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1500&color=7C3AED&center=true&vCenter=true&width=520&lines=Building+something+useful.;One+system+at+a+time."/>
 
 <br>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:7c3aed,50:3b0764,100:090014"/>
 
 </div>
-```
