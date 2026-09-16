@@ -4,27 +4,36 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:090014,50:3b0764,100:7c3aed&text=Ivan%20Mikhailyuk&fontColor=ffffff&fontSize=38&fontAlignY=35&animation=fadeIn&desc=Python%20Backend%20Developer&descSize=16&descAlignY=57"/>
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Python+Backend+Developer;Backend+%E2%80%A2+APIs+%E2%80%A2+Automation;FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Telegram;Building+systems+that+solve+real+problems"/>
+<h1>Ivan Mikhailyuk</h1>
+
+<samp>Python Backend Developer</samp>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%3E+designing+backend+systems_;%3E+building+APIs+%26+automation_;%3E+integrating+AI+into+real+products_;%3E+shipping+useful+software_"/>
 
 <br>
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="85"/>
+<samp>
+backend systems&nbsp;&nbsp;•&nbsp;&nbsp;automation&nbsp;&nbsp;•&nbsp;&nbsp;AI integrations
+</samp>
 
-<br>
+<br><br>
 
-### Backend systems · automation · AI integrations
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=A855F7"/>
 
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
+<br><br>
 
 </div>
 
 ---
 
-## 👾 About me
+## 01 / ABOUT
 
 ```python
 class Ivan:
@@ -54,23 +63,19 @@ class Ivan:
 me = Ivan()
 ```
 
-I build backend systems and automation tools with a focus on practical use, maintainability and real-world deployment.
+I build backend systems and automation tools focused on practical use, maintainability and real-world deployment.
 
-My main direction is **Python backend development** — APIs, Telegram systems, databases and AI-powered applications.
+My main direction is **Python backend development** — APIs, automation, databases, Telegram systems and AI-powered applications.
 
 ---
 
-## ⚡ Tech stack
+## 02 / STACK
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,git,github,vscode,html,css&theme=dark"/>
 
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 `Python` • `FastAPI` • `PostgreSQL` • `aiogram` • `Git` • `Docker`
 
@@ -78,11 +83,11 @@ My main direction is **Python backend development** — APIs, Telegram systems, 
 
 ---
 
-## 🚀 Featured work
+## 03 / FEATURED WORK
 
 ### 🤖 AI Telegram Assistant
 
-A production-oriented AI assistant designed to automate customer communication and business workflows inside Telegram.
+Production-oriented AI assistant designed to automate customer communication and business workflows inside Telegram.
 
 ```text
 User
@@ -118,7 +123,8 @@ PostgreSQL
 - campaign and source attribution
 - analytics and event tracking
 - human handoff
-- backend architecture designed for further scaling
+- production-oriented backend architecture
+- infrastructure designed for further scaling
 
 ---
 
@@ -130,7 +136,7 @@ Personal developer website built as an independent space for my projects, experi
 
 ---
 
-## 🧩 What I work with
+## 04 / SYSTEMS I WORK WITH
 
 ```text
 Backend
@@ -162,7 +168,7 @@ Infrastructure
 
 ---
 
-## 📊 GitHub activity
+## 05 / ACTIVITY
 
 <div align="center">
 
@@ -170,17 +176,9 @@ Infrastructure
 
 </div>
 
-<br>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
-
-</div>
-
 ---
 
-## ⚙️ Engineering approach
+## 06 / ENGINEERING APPROACH
 
 ```python
 def build_product(idea):
@@ -198,15 +196,37 @@ def build_product(idea):
     return improve(product)
 ```
 
-I prefer building projects around an actual problem rather than creating features just for the sake of adding more code.
+I prefer building around an actual problem rather than adding features just for the sake of adding more code.
+
+The goal is simple:
+
+```text
+idea
+  ↓
+architecture
+  ↓
+working system
+  ↓
+real usage
+  ↓
+iteration
+```
 
 ---
 
+<!-- ========================= -->
+<!--          FOOTER           -->
+<!-- ========================= -->
+
 <div align="center">
 
-### `> design. build. ship. improve._`
-
 <br>
+
+<samp>
+> build something useful.
+</samp>
+
+<br><br>
 
 ```text
  /\_/\
@@ -214,14 +234,26 @@ I prefer building projects around an actual problem rather than creating feature
  > ^ <
 ```
 
-<sub>Occasionally supervised by a cat.</sub>
+<samp>
+code reviewed by management ↑
+</samp>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1500&color=7C3AED&center=true&vCenter=true&width=520&lines=Building+something+useful.;One+system+at+a+time."/>
+<samp>
+design → build → ship → iterate
+</samp>
 
-<br>
+<br><br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:7c3aed,50:3b0764,100:090014"/>
+<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
+
+<br><br>
+
+<samp>
+unsgndx · Python Backend Development
+</samp>
+
+<br><br>
 
 </div>
