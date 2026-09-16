@@ -162,17 +162,7 @@ Infrastructure
 
 ---
 
-## 📊 GitHub
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=unsgndx&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=C9D1D9&ring_color=7C3AED"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unsgndx&layout=compact&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9"/>
-
-</div>
-
-<br>
+## 📊 GitHub activity
 
 <div align="center">
 
@@ -180,13 +170,11 @@ Infrastructure
 
 </div>
 
----
-
-## 🌌 Contribution activity
+<br>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=unsgndx&bg_color=0D1117&color=A855F7&line=7C3AED&point=C084FC&area=true&hide_border=true"/>
+<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
 
 </div>
 
