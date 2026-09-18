@@ -33,7 +33,7 @@ backend systems&nbsp;&nbsp;•&nbsp;&nbsp;automation&nbsp;&nbsp;•&nbsp;&nbsp;A
 
 ---
 
-## 01 / ABOUT
+## ABOUT
 
 ```python
 class Ivan:
@@ -69,7 +69,7 @@ My main direction is **Python backend development** — APIs, automation, databa
 
 ---
 
-## 02 / STACK
+## STACK
 
 <div align="center">
 
@@ -83,7 +83,7 @@ My main direction is **Python backend development** — APIs, automation, databa
 
 ---
 
-## 03 / FEATURED WORK
+## FEATURED WORK
 
 ### 🤖 AI Telegram Assistant
 
@@ -136,7 +136,7 @@ Personal developer website built as an independent space for my projects, experi
 
 ---
 
-## 04 / SYSTEMS I WORK WITH
+## SYSTEMS I WORK WITH
 
 ```text
 Backend
@@ -168,7 +168,7 @@ Infrastructure
 
 ---
 
-## 05 / ACTIVITY
+## ACTIVITY
 
 <div align="center">
 
@@ -178,7 +178,7 @@ Infrastructure
 
 ---
 
-## 06 / ENGINEERING APPROACH
+## ENGINEERING APPROACH
 
 ```python
 def build_product(idea):
