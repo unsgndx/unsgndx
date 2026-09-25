@@ -1,18 +1,20 @@
-<!-- ========================= -->
-<!--          HEADER           -->
-<!-- ========================= -->
+<!-- ===================================================== -->
+<!--                       HEADER                          -->
+<!-- ===================================================== -->
 
 <div align="center">
 
 <br>
 
-<h1>Ivan Mikhailyuk</h1>
+# Ivan Mikhailyuk
 
 <samp>Python Backend Developer</samp>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%3E+designing+backend+systems_;%3E+building+APIs+%26+automation_;%3E+integrating+AI+into+real+products_;%3E+shipping+useful+software_"/>
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=1000&color=A855F7&center=true&vCenter=true&repeat=true&width=670&height=35&lines=%3E+designing+backend+systems_;%3E+building+APIs+%26+automation_;%3E+integrating+AI+into+real+products_;%3E+shipping+useful+software_"
+/>
 
 <br>
 
@@ -26,6 +28,7 @@ backend systems&nbsp;&nbsp;•&nbsp;&nbsp;automation&nbsp;&nbsp;•&nbsp;&nbsp;A
 <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=A855F7"/>
 <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=A855F7"/>
 <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/Telegram-0D1117?style=flat-square&logo=telegram&logoColor=A855F7"/>
 
 <br><br>
 
@@ -35,37 +38,30 @@ backend systems&nbsp;&nbsp;•&nbsp;&nbsp;automation&nbsp;&nbsp;•&nbsp;&nbsp;A
 
 ## 01 / ABOUT
 
-```python
-class Ivan:
-    def __init__(self):
-        self.role = "Python Backend Developer"
-        self.location = "Almaty, Kazakhstan"
+```console
+$ whoami
+Ivan Mikhailyuk
 
-        self.focus = [
-            "Backend Systems",
-            "API Development",
-            "Telegram Automation",
-            "Databases",
-            "AI Integrations"
-        ]
+$ role
+Python Backend Developer
 
-        self.principles = [
-            "Clean architecture",
-            "Maintainable code",
-            "Reliable systems",
-            "Build for real use"
-        ]
+$ focus
+Backend Systems
+API Development
+Telegram Automation
+AI Integrations
+Databases
 
-    def work(self):
-        return "Turning ideas into working software"
+$ location
+Almaty, Kazakhstan
 
-
-me = Ivan()
+$ philosophy
+Build software for real use.
 ```
 
-I build backend systems and automation tools focused on practical use, maintainability and real-world deployment.
+I build backend systems, automation tools and AI-powered applications with a focus on practical use, maintainable architecture and real-world deployment.
 
-My main direction is **Python backend development** — APIs, automation, databases, Telegram systems and AI-powered applications.
+My main direction is **Python backend development** — APIs, Telegram systems, databases, automation and AI integrations.
 
 ---
 
@@ -77,7 +73,7 @@ My main direction is **Python backend development** — APIs, automation, databa
 
 <br><br>
 
-`Python` • `FastAPI` • `PostgreSQL` • `aiogram` • `Git` • `Docker`
+`Python` • `FastAPI` • `PostgreSQL` • `aiogram` • `REST API` • `Git` • `Docker`
 
 </div>
 
@@ -85,153 +81,208 @@ My main direction is **Python backend development** — APIs, automation, databa
 
 ## 03 / FEATURED WORK
 
-### 🤖 AI Telegram Assistant
+### AI Telegram Assistant
 
-Production-oriented AI assistant designed to automate customer communication and business workflows inside Telegram.
+A production-oriented Telegram system designed to automate customer communication and AI-assisted business workflows.
 
-```text
-User
- │
- ▼
-Telegram
- │
- ▼
-aiogram
- │
- ▼
-Application Layer
- │
- ├── AI / LLM
- ├── Knowledge Base
- ├── Business Logic
- ├── Analytics
- └── Human Handoff
- │
- ▼
-PostgreSQL
+```mermaid
+flowchart TD
+    U["User"] --> TG["Telegram"]
+
+    TG --> BOT["aiogram"]
+    BOT --> APP["Application Layer"]
+
+    APP --> AI["AI / LLM"]
+    APP --> KB["Knowledge Base"]
+    APP --> BL["Business Logic"]
+    APP --> AN["Analytics"]
+    APP --> HH["Human Handoff"]
+
+    AI --> DB["PostgreSQL"]
+    KB --> DB
+    BL --> DB
+    AN --> DB
+
+    style APP fill:#221133,stroke:#A855F7,color:#ffffff
+    style DB fill:#221133,stroke:#A855F7,color:#ffffff
+    style AI fill:#18181b,stroke:#7C3AED,color:#ffffff
+    style KB fill:#18181b,stroke:#7C3AED,color:#ffffff
+    style BL fill:#18181b,stroke:#7C3AED,color:#ffffff
+    style AN fill:#18181b,stroke:#7C3AED,color:#ffffff
+    style HH fill:#18181b,stroke:#7C3AED,color:#ffffff
 ```
 
 **Core stack**
 
-`Python` `aiogram` `FastAPI` `PostgreSQL` `AI`
+`Python` `aiogram` `FastAPI` `PostgreSQL` `LLM`
 
 **Key areas**
 
 - persistent conversation history
 - AI-powered responses
-- knowledge-driven conversations
-- campaign and source attribution
+- structured knowledge
+- source and campaign attribution
 - analytics and event tracking
 - human handoff
+- reliable message processing
 - production-oriented backend architecture
-- infrastructure designed for further scaling
 
----
+<details>
+<summary><b>Architecture focus</b></summary>
 
-### 🌌 Developer Portfolio
+<br>
 
-Personal developer website built as an independent space for my projects, experiments and engineering work.
+The project is built around separation of concerns between Telegram transport, application logic, persistence, AI orchestration and analytics.
+
+The goal is to keep the system maintainable while making it possible to extend individual components independently.
+
+</details>
+
+<br>
+
+### Developer Portfolio
+
+Personal developer space for projects, experiments and engineering work.
 
 `Web` `UI` `GitHub` `Deployment`
 
 ---
 
-## 04 / SYSTEMS I WORK WITH
+## 04 / DEVELOPMENT MAP
 
-```text
-Backend
-├── Python
-├── FastAPI
-├── REST APIs
-└── Application Architecture
+```mermaid
+flowchart LR
+    PY["Python"] --> BE["Backend"]
 
-Data
-├── PostgreSQL
-└── Persistent Storage
+    BE --> API["APIs"]
+    BE --> AUTO["Automation"]
+    BE --> DATA["Data"]
+    BE --> AIS["AI Systems"]
 
-Automation
-├── Telegram Bots
-├── aiogram
-└── Business Workflows
+    API --> FAST["FastAPI"]
+    API --> REST["REST"]
 
-AI
-├── LLM Integration
-├── Knowledge Systems
-└── AI Assistants
+    AUTO --> TG["Telegram"]
+    TG --> AIO["aiogram"]
 
-Infrastructure
-├── Git
-├── GitHub
-├── Docker
-└── Deployment
+    DATA --> PG["PostgreSQL"]
+
+    AIS --> LLM["LLM Integration"]
+    AIS --> KNOW["Knowledge Systems"]
+
+    BE --> INFRA["Infrastructure"]
+    INFRA --> DOCKER["Docker"]
+    INFRA --> GIT["Git / GitHub"]
+    INFRA --> DEPLOY["Deployment"]
+
+    style BE fill:#221133,stroke:#A855F7,color:#ffffff
+    style PY fill:#18181b,stroke:#7C3AED,color:#ffffff
 ```
 
 ---
 
-## 05 / ACTIVITY
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=unsgndx&theme=midnight-purple&hide_border=true&background=0D1117&ring=A855F7&fire=7C3AED&currStreakLabel=A855F7"/>
-
-</div>
-
----
-
-## 06 / ENGINEERING APPROACH
+## 05 / ENGINEERING APPROACH
 
 ```python
 def build_product(idea):
-    architecture = design(idea)
+    requirements = understand(idea)
+    architecture = design(requirements)
 
     product = build(
         architecture=architecture,
         maintainable=True,
-        scalable=True
+        observable=True
     )
 
     test(product)
     deploy(product)
 
-    return improve(product)
+    return iterate(product)
 ```
 
-I prefer building around an actual problem rather than adding features just for the sake of adding more code.
-
-The goal is simple:
+I prefer building around an actual problem rather than adding features just to increase the amount of code.
 
 ```text
-idea
-  ↓
+problem
+   │
+   ▼
+requirements
+   │
+   ▼
 architecture
-  ↓
-working system
-  ↓
+   │
+   ▼
+implementation
+   │
+   ▼
+deployment
+   │
+   ▼
 real usage
-  ↓
+   │
+   ▼
 iteration
 ```
 
 ---
 
-<!-- ========================= -->
-<!--          FOOTER           -->
-<!-- ========================= -->
+## 06 / GITHUB ACTIVITY
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=unsgndx&theme=midnight-purple&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7"
+/>
+
+<br><br>
+
+<img
+  src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"
+/>
+
+</div>
+
+---
+
+## 07 / CURRENT DIRECTION
+
+```text
+Backend Engineering
+        │
+        ├── APIs
+        ├── Databases
+        ├── Automation
+        ├── AI Integration
+        └── Infrastructure
+                │
+                ▼
+        Real-world systems
+```
+
+<samp>
+Current priority: building software that survives outside localhost.
+</samp>
+
+---
+
+<!-- ===================================================== -->
+<!--                       FOOTER                          -->
+<!-- ===================================================== -->
 
 <div align="center">
 
 <br>
 
 <samp>
-> build something useful.
+> design → build → ship → iterate
 </samp>
 
 <br><br>
 
 ```text
- /\_/\
-( o.o )
- > ^ <
+        /\_/\
+       ( o.o )
+        > ^ <
 ```
 
 <samp>
@@ -240,15 +291,11 @@ code reviewed by management ↑
 
 <br><br>
 
-<samp>
-design → build → ship → iterate
-</samp>
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3200&pause=1800&color=8B949E&center=true&vCenter=true&repeat=true&width=520&height=25&lines=building+something+useful...;one+system+at+a+time.;there+is+always+something+in+development."
+/>
 
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
-
-<br><br>
+<br>
 
 <samp>
 unsgndx · Python Backend Development
