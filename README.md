@@ -1,356 +1,259 @@
-```md
+<!-- ========================= -->
+<!--          HEADER           -->
+<!-- ========================= -->
+
 <div align="center">
 
-# IVAN MIKHAILYUK
+<br>
 
-### `BACKEND SYSTEM OPERATOR`
+<h1>Ivan Mikhailyuk</h1>
 
-`PYTHON` / `FASTAPI` / `POSTGRESQL` / `AUTOMATION`
+<samp>Python Backend Developer</samp>
 
-<sub>ALMATY // SECTOR KZ-02 // NODE ACTIVE</sub>
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%3E+designing+backend+systems_;%3E+building+APIs+%26+automation_;%3E+integrating+AI+into+real+products_;%3E+shipping+useful+software_"/>
+
+<br>
+
+<samp>
+backend systems&nbsp;&nbsp;•&nbsp;&nbsp;automation&nbsp;&nbsp;•&nbsp;&nbsp;AI integrations
+</samp>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=A855F7"/>
+
+<br><br>
 
 </div>
 
 ---
 
-```text
-╔══════════════════════════════════════════════════════════════╗
-║                    PERSONNEL RECORD                         ║
-╠══════════════════════════════════════════════════════════════╣
-║ ID          IVAN.M                                         ║
-║ CLASS       PYTHON BACKEND DEVELOPER                       ║
-║ BASE        ALMATY, KAZAKHSTAN                             ║
-║ SPECIALTY   BACKEND SYSTEMS / APIs / AUTOMATION            ║
-║ STATUS      ACTIVE                                         ║
-║ OBJECTIVE   BUILD SYSTEMS THAT ACTUALLY WORK               ║
-╚══════════════════════════════════════════════════════════════╝
+## 01 / ABOUT
+
+```python
+class Ivan:
+    def __init__(self):
+        self.role = "Python Backend Developer"
+        self.location = "Almaty, Kazakhstan"
+
+        self.focus = [
+            "Backend Systems",
+            "API Development",
+            "Telegram Automation",
+            "Databases",
+            "AI Integrations"
+        ]
+
+        self.principles = [
+            "Clean architecture",
+            "Maintainable code",
+            "Reliable systems",
+            "Build for real use"
+        ]
+
+    def work(self):
+        return "Turning ideas into working software"
+
+
+me = Ivan()
 ```
 
----
+I build backend systems and automation tools focused on practical use, maintainability and real-world deployment.
 
-## `// ABOUT UNIT`
-
-I build backend systems, APIs, automation tools and Telegram products.
-
-Most of my interest is in the part users usually never see:
-
-- message processing
-- databases
-- background workers
-- API architecture
-- system reliability
-- integrations
-- failure handling
-- production infrastructure
-
-> Not collecting technologies.  
-> Trying to understand how systems behave when something goes wrong.
+My main direction is **Python backend development** — APIs, automation, databases, Telegram systems and AI-powered applications.
 
 ---
 
-## `// CURRENT LOADOUT`
+## 02 / STACK
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<div align="center">
 
-### CORE
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,git,github,vscode,html,css&theme=dark"/>
+
+<br><br>
+
+`Python` • `FastAPI` • `PostgreSQL` • `aiogram` • `Git` • `Docker`
+
+</div>
+
+---
+
+## 03 / FEATURED WORK
+
+### 🤖 AI Telegram Assistant
+
+Production-oriented AI assistant designed to automate customer communication and business workflows inside Telegram.
 
 ```text
-Python
-FastAPI
-Pydantic
+User
+ │
+ ▼
+Telegram
+ │
+ ▼
 aiogram
-```
-
-</td>
-
-<td width="33%" valign="top">
-
-### MEMORY
-
-```text
+ │
+ ▼
+Application Layer
+ │
+ ├── AI / LLM
+ ├── Knowledge Base
+ ├── Business Logic
+ ├── Analytics
+ └── Human Handoff
+ │
+ ▼
 PostgreSQL
-SQLAlchemy
-Alembic
-Redis
 ```
 
-</td>
+**Core stack**
 
-<td width="33%" valign="top">
+`Python` `aiogram` `FastAPI` `PostgreSQL` `AI`
 
-### SHELL
+**Key areas**
 
-```text
-Docker
-Linux
-Git
-Railway
-REST API
-```
-
-</td>
-</tr>
-</table>
+- persistent conversation history
+- AI-powered responses
+- knowledge-driven conversations
+- campaign and source attribution
+- analytics and event tracking
+- human handoff
+- production-oriented backend architecture
+- infrastructure designed for further scaling
 
 ---
 
-# `SECTOR 01 // ACTIVE MISSION`
+### 🌌 Developer Portfolio
 
-## AI TELEGRAM ASSISTANT
+Personal developer website built as an independent space for my projects, experiments and engineering work.
 
-Production-oriented Telegram backend with persistent processing, retries and LLM integration.
-
-```text
-MISSION TYPE     BACKEND SYSTEM
-STATE            ACTIVE DEVELOPMENT
-PRIORITY         HIGH
-```
-
-### SYSTEM ROUTE
-
-```text
-        ┌───────────────┐
-        │   TELEGRAM    │
-        └───────┬───────┘
-                │
-                ▼
-        ┌───────────────┐
-        │    WEBHOOK    │
-        └───────┬───────┘
-                │
-                ▼
-        ┌───────────────┐
-        │    FASTAPI    │
-        └───────┬───────┘
-                │
-        ┌───────┴────────┐
-        │                │
-        ▼                ▼
-┌──────────────┐   ┌──────────────┐
-│  POSTGRESQL  │   │    WORKER    │
-└──────────────┘   └──────┬───────┘
-                          │
-                          ▼
-                   ┌──────────────┐
-                   │     LLM      │
-                   └──────┬───────┘
-                          │
-                          ▼
-                      RESPONSE
-```
-
-### SYSTEM CAPABILITIES
-
-```text
-[+] Telegram webhook
-[+] persistent inbox
-[+] duplicate protection
-[+] worker claim / lease
-[+] retry logic
-[+] failed-event handling
-[+] LLM orchestration
-[+] PostgreSQL persistence
-[+] production deployment
-```
-
-### STACK
-
-`Python` `FastAPI` `aiogram` `PostgreSQL` `SQLAlchemy` `OpenAI API`
-
-> Current objective: turn the system from a bot into an actual autonomous product.
+`Web` `UI` `GitHub` `Deployment`
 
 ---
 
-# `SECTOR 02 // TEAMUP`
-
-## TEAM MATCHING PLATFORM
-
-Web service for students looking for teammates for educational projects.
+## 04 / SYSTEMS I WORK WITH
 
 ```text
-MISSION TYPE     WEB APPLICATION
-PARTY SIZE       6
-ROLE             PROJECT / BACKEND
-STATE            DEVELOPMENT
-```
+Backend
+├── Python
+├── FastAPI
+├── REST APIs
+└── Application Architecture
 
-### BUILDING
+Data
+├── PostgreSQL
+└── Persistent Storage
 
-```text
-[+] project structure
-[+] requirements
-[+] backend architecture
-[+] API logic
-[+] database model
-[+] team workflow
-```
+Automation
+├── Telegram Bots
+├── aiogram
+└── Business Workflows
 
-### STACK
+AI
+├── LLM Integration
+├── Knowledge Systems
+└── AI Assistants
 
-`Python` `FastAPI` `PostgreSQL`
-
----
-
-# `SECTOR 03 // COMMERCIAL`
-
-## REAL-WORLD DEVELOPMENT
-
-I am interested in building software for actual users and actual businesses.
-
-Typical route:
-
-```text
-UNKNOWN BUSINESS PROBLEM
-
-            │
-            ▼
-
-        DISCOVERY
-
-            │
-            ▼
-
-       REQUIREMENTS
-
-            │
-            ▼
-
-       SYSTEM DESIGN
-
-            │
-            ▼
-
-          BACKEND
-
-            │
-            ▼
-
-      DATABASE / API
-
-            │
-            ▼
-
-       DEPLOYMENT
-
-            │
-            ▼
-
-      WORKING PRODUCT
+Infrastructure
+├── Git
+├── GitHub
+├── Docker
+└── Deployment
 ```
 
 ---
 
-# `// SKILL TREE`
-
-```text
-BACKEND ENGINEERING
-│
-├── Python                    █████████░
-│
-├── FastAPI                   ████████░░
-│
-├── PostgreSQL                ████████░░
-│
-├── Git                       ████████░░
-│
-├── Docker                    ███████░░░
-│
-├── Async Python              ███████░░░
-│
-├── API Design                ███████░░░
-│
-├── System Design             █████░░░░░
-│
-└── Distributed Systems       ███░░░░░░░
-```
-
----
-
-# `// CURRENT QUEST LOG`
-
-```text
-MAIN QUEST
-────────────────────────────────────────
-
-[x] Build REST APIs
-[x] Work with PostgreSQL
-[x] Design backend architecture
-[x] Build Telegram integrations
-[x] Deploy real applications
-[x] Implement background processing
-[x] Handle retries and failures
-
-[ ] Go deeper into Redis
-[ ] Message queues
-[ ] Observability
-[ ] Distributed systems
-[ ] Scalable architecture
-```
-
----
-
-# `// ENGINEERING RULES`
-
-```text
-01  Understand the problem before writing code.
-
-02  Build systems, not demos.
-
-03  Keep architecture understandable.
-
-04  Prefer reliability over unnecessary complexity.
-
-05  Make failure predictable.
-
-06  Write code that another developer can maintain.
-
-07  Production is part of development.
-```
-
----
-
-# `// CURRENT LOCATION`
-
-```text
-WORLD       SOFTWARE DEVELOPMENT
-REGION      BACKEND ENGINEERING
-BASE        ALMATY
-MODE        ACTIVE DEVELOPMENT
-OBJECTIVE   LEVEL UP
-```
-
----
-
-# `// NETWORK`
-
-```text
-GITHUB
-https://github.com/YOUR_USERNAME
-
-TELEGRAM
-https://t.me/YOUR_USERNAME
-
-EMAIL
-YOUR_EMAIL
-```
-
----
+## 05 / ACTIVITY
 
 <div align="center">
 
-```text
-╔══════════════════════════════╗
-║       NODE STILL RUNNING     ║
-╚══════════════════════════════╝
-```
-
-### `BUILD > BREAK > UNDERSTAND > REBUILD`
-
-<sub>SAVE FILE // 2026</sub>
+<img src="https://streak-stats.demolab.com?user=unsgndx&theme=midnight-purple&hide_border=true&background=0D1117&ring=A855F7&fire=7C3AED&currStreakLabel=A855F7"/>
 
 </div>
+
+---
+
+## 06 / ENGINEERING APPROACH
+
+```python
+def build_product(idea):
+    architecture = design(idea)
+
+    product = build(
+        architecture=architecture,
+        maintainable=True,
+        scalable=True
+    )
+
+    test(product)
+    deploy(product)
+
+    return improve(product)
 ```
 
-Я бы потом ещё докрутил его **2–3 кастомными картинками**: маленький ретро-логотип `IVAN.M`, полоска `SYSTEM ONLINE` и один широкий баннер в духе старого sci-fi интерфейса. Тогда README будет выглядеть уже совсем не шаблонно.
+I prefer building around an actual problem rather than adding features just for the sake of adding more code.
+
+The goal is simple:
+
+```text
+idea
+  ↓
+architecture
+  ↓
+working system
+  ↓
+real usage
+  ↓
+iteration
+```
+
+---
+
+<!-- ========================= -->
+<!--          FOOTER           -->
+<!-- ========================= -->
+
+<div align="center">
+
+<br>
+
+<samp>
+> build something useful.
+</samp>
+
+<br><br>
+
+```text
+ /\_/\
+( o.o )
+ > ^ <
+```
+
+<samp>
+code reviewed by management ↑
+</samp>
+
+<br><br>
+
+<samp>
+design → build → ship → iterate
+</samp>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=unsgndx&label=PROFILE+VIEWS&color=7c3aed&style=flat-square"/>
+
+<br><br>
+
+<samp>
+unsgndx · Python Backend Development
+</samp>
+
+<br><br>
+
+</div>
